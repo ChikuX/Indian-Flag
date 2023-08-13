@@ -1,0 +1,100 @@
+:root {
+	background: black;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+	font-family: cursive;
+	background: linear-gradient(orange, white, green);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 500ms;
+}
+h1:hover {
+	scale: 120%;
+	text-shadow:  -2px -2px 20px orange, 2px 2px 20px green;
+}
+
+.container {
+	width: 250px;
+	height: 150px;
+/*	border: 2px solid white;*/
+    position: relative;
+    margin: 0 auto;
+    transition: all 400ms;
+    margin-top: 100px;
+}
+.container:hover {
+	scale: 120%;
+	box-shadow: -3px -3px 20px orange, 4px 4px 20px green;
+}
+.orange {
+	background: orange;
+	width: 100%;
+	height: 50px;
+}
+.white {
+	background: white;
+	width: 100%;
+	height: 50px;
+}
+.green {
+	background: green;
+	width: 100%;
+	height: 50px;
+}
+.circle {
+	width: 47px;
+	height: 92%;
+	border-radius: 50px;
+	border: 2px solid blue;
+	position: relative;
+	margin: 0 auto;
+}
+.circle .line {
+/*	border: 1.5px solid blue;*/
+	height: 100%;
+	width: 1px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	background: blue;
+}
+.line:nth-child(1) {
+	transform: rotate(15deg);
+}
+.line:nth-child(2) {
+	transform: rotate(30deg);
+}
+.line:nth-child(3) {
+	transform: rotate(45deg);
+}
+.line:nth-child(4) {
+	transform: rotate(60deg);
+}
+.line:nth-child(5) {
+	transform: rotate(75deg);
+}
+.line:nth-child(6) {
+	transform: rotate(90deg);
+}
+.line:nth-child(7) {
+	transform: rotate(105deg);
+}
+.line:nth-child(8) {
+	transform: rotate(120deg);
+}
+.line:nth-child(9) {
+	transform: rotate(135deg);
+}
+.line:nth-child(10) {
+	transform: rotate(150deg);
+}
+.line:nth-child(11) {
+	transform: rotate(165deg);
+}
+.line:nth-child(12) {
+	transform: rotate(180deg);
+}
